@@ -57,23 +57,25 @@ memory (most modern computers should be fine).[15Mb]
 + Allow for Approximately 2x Memory Required for Dataset. [30Mb]
 
 <b>NOTE: </b>
-* The four scripts present in this repository require that the dataset below is present in a subfolder entitled "data" located in your current working directory. Please ensure that this is the case or modify the script accordingly. If this is not the case, the script will throw an error and will not run. 
+* The four scripts present in this repository require that the dataset below is present in a subfolder entitled "data" located in your current working directory. Please ensure that this is the case or modify the script accordingly. 
+  + If this is not the case, the script will throw an error and will not run. 
 
-* Please confirm that your computer has enough memory before runnning these scripts - at LEAST 30 MB available. Each script will throw a warning that 30 MB of memory is required, as each code file **includes code for reading the data** so that the plot can be fully reproduced, in addition to the code to create the png file.
+* Please confirm that your computer has enough memory before runnning these scripts - at LEAST 30 MB available. 
+  + Each script will throw a warning that 30 MB of memory is required, as each code file **includes code for reading the data** so that the plot can be fully reproduced, in addition to the code to create the png file.
 
 
 
 ## Making Plots
 
-Our overall goal here is simply to examine how household energy usage
+* Our overall goal here is simply to examine how household energy usage
 varies over a 2-day period in February, 2007. The four scripts included in this repo reconstruct the plots below, all of which have been constructed using the base plotting system.
 
-Each plot is constructed and saved as a PNG file with a width of 480 x 480 pixels by the corresponding R code file (plot1.R creates plot1.png, etc.).
+* Each plot is constructed and saved as a PNG file with a width of 480 x 480 pixels by the corresponding R code file (plot1.R creates plot1.png, etc.).
 
-All 8 files (plot1.R,plot1.png,plot2.R,plot2.png,plot3.R,plot3.png,plot4.R,and plot4.png) have been added to this repository, which now contains 4 png files and 4 R code files, in addition to this modified README.md file, the files originally in the repository, and the data. 
+* All 8 files (plot1.R, plot1.png, plot2.R, plot2.png, plot3.R, plot3.png, plot4.R, and plot4.png) have been added to this repository, which now contains 4 png files and 4 R code files, in addition to this modified README.md file, and the files originally in the repository.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots that the R code files should construct are displayed below: 
 
 
 ### Plot 1
