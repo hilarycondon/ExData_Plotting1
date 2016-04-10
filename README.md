@@ -1,3 +1,15 @@
+---
+title: "README.md"
+author: "Hilary Condon"
+date: "April 10, 2016"
+---
+
+Exploratory Data Analysis Project 1
+========
+
+I forked and cloned the following Github Repository to create this Repo: 
+[https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+
 ## Introduction
 
 This assignment uses data from
@@ -35,58 +47,30 @@ web site</a>:
 
 ## Loading the data
 
-
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
 calculate a rough estimate of how much memory the dataset will require
 in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).
+memory (most modern computers should be fine).[15Mb]
++ Estimate calculated by multiplying number of rows by number of columns by 8 bytes/numeric.
++ Allow for Approximately 2x Memory Required for Dataset. [30Mb]
 
-* We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
+<b>NOTE: </b>
+* The four scripts present in this repository require that the dataset below is present in a subfolder entitled "data" located in your current working directory. Please ensure that this is the case or modify the script accordingly. If this is not the case, the script will throw an error and will not run. 
 
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
+* Please confirm that your computer has enough memory before runnning these scripts - at LEAST 30 MB available. Each script will throw a warning that 30 MB of memory is required, as each code file **includes code for reading the data** so that the plot can be fully reproduced, in addition to the code to create the png file.
 
-* Note that in this dataset missing values are coded as `?`.
 
 
 ## Making Plots
 
 Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
-using the base plotting system.
+varies over a 2-day period in February, 2007. The four scripts included in this repo reconstruct the plots below, all of which have been constructed using the base plotting system.
 
-First you will need to fork and clone the following GitHub repository:
-[https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+Each plot is constructed and saved as a PNG file with a width of 480 x 480 pixels by the corresponding R code file (plot1.R creates plot1.png, etc.).
 
-
-For each plot you should
-
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
-
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
-
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
-
-* Add the PNG file and R code file to your git repository
-
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
+All 8 files (plot1.R,plot1.png,plot2.R,plot2.png,plot3.R,plot3.png,plot4.R,and plot4.png) have been added to this repository, which now contains 4 png files and 4 R code files, in addition to this modified README.md file, the files originally in the repository, and the data. 
 
 
 The four plots that you will need to construct are shown below. 
